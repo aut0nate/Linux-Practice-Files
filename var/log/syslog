@@ -1,0 +1,13 @@
+Jan 5 09:00:01 server CRON[12345]: (root) CMD (/usr/bin/apt update)
+Jan 5 09:05:12 server kernel: [12345.678901] eth0: Link is Up - 1Gbps Full Duplex
+Jan 5 09:10:33 server systemd[1]: Starting Daily apt download activities...
+Jan 5 09:15:45 server systemd[1]: Finished Daily apt download activities.
+Jan 5 09:20:01 server CRON[12346]: (root) CMD (/usr/bin/apt upgrade -y)
+Jan 5 09:25:22 server kernel: [12346.789012] CPU0: Core temperature above threshold, cpu clock throttled
+Jan 5 09:30:45 server kernel: [12347.890123] CPU0: Core temperature/speed normal
+Jan 5 09:35:12 server systemd[1]: Starting Cleanup of Temporary Directories...
+Jan 5 09:40:33 server systemd[1]: Finished Cleanup of Temporary Directories.
+Jan 5 09:45:45 server kernel: [12348.901234] usb 1-1: USB device connected
+Jan 5 09:50:01 server kernel: [12349.012345] usb 1-1: USB device disconnected
+Jan 5 09:55:22 server systemd[1]: Starting Rotate log files...
+Jan 5 10:00:45 server systemd[1]: Finished Rotate log files.

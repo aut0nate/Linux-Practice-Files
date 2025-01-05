@@ -1,0 +1,25 @@
+Jan 5 09:23:45 server sshd[12345]: Accepted publickey for admin from 192.168.1.100 port 52413
+Jan 5 09:24:01 server sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/apt update
+Jan 5 09:45:22 server sshd[12346]: Failed password for invalid user test from 45.123.45.67 port 53022
+Jan 5 10:15:33 server sudo: admin : TTY=pts/0 ; PWD=/var/www ; USER=root ; COMMAND=/bin/systemctl restart apache2
+Jan 5 11:02:14 server sshd[12347]: Failed password for root from 89.123.45.78 port 39654
+Jan 5 11:02:15 server sshd[12347]: Failed password for root from 89.123.45.78 port 39655
+Jan 5 11:02:16 server sshd[12347]: Failed password for root from 89.123.45.78 port 39656
+Jan 5 11:02:17 server sshd[12348]: Invalid user admin1 from 89.123.45.78
+Jan 5 12:30:45 server sudo: james : authentication failure ; TTY=pts/1 ; PWD=/home/james ; USER=root
+Jan 5 13:15:22 server groupadd[12349]: new group: name=developer, GID=1001
+Jan 5 13:15:45 server useradd[12350]: new user: name=sarah, UID=1001, GID=1001
+Jan 5 14:20:33 server sshd[12351]: Accepted password for sarah from 192.168.1.101 port 52414
+Jan 5 15:45:12 server sudo: sarah : TTY=pts/2 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/nano index.html
+Jan 5 16:30:45 server passwd[12352]: password changed for sarah
+Jan 5 17:00:01 server CRON[12353]: pam_unix(cron:session): session opened for user root
+Jan 5 17:00:02 server CRON[12353]: pam_unix(cron:session): session closed for user root
+Jan 5 18:23:45 server sshd[12354]: Disconnected from user admin 192.168.1.100 port 52413
+Jan 5 19:15:22 server sudo: admin : TTY=pts/0 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/bin/vim apache2.conf
+Jan 5 20:30:45 server sshd[12355]: Failed password for invalid user administrator from 91.234.56.78 port 45678
+Jan 5 21:45:12 server sudo: sarah : TTY=pts/2 ; PWD=/home/sarah ; USER=root ; COMMAND=/usr/bin/apt upgrade
+Jan 5 22:15:33 server sshd[12356]: Accepted publickey for admin from 192.168.1.102 port 52415
+Jan 5 23:00:01 server CRON[12357]: pam_unix(cron:session): session opened for user root
+Jan 5 23:30:45 server sudo: admin : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/bin/tail -f auth.log
+Jan 5 23:45:22 server sshd[12358]: Disconnected from user sarah 192.168.1.101 port 52414
+Jan 5 23:59:59 server sudo: admin : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/sbin/shutdown -r now

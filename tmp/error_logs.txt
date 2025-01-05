@@ -1,0 +1,24 @@
+[2025-01-05 09:15:22] ERROR: Failed to connect to database. Host: db-server.company.com, Port: 3306
+[2025-01-05 09:16:45] WARNING: Disk space running low on /dev/sda1. Available: 5%
+[2025-01-05 09:18:12] ERROR: User authentication failed for user 'admin'. IP: 192.168.1.100
+[2025-01-05 09:20:33] INFO: Scheduled backup completed successfully.
+[2025-01-05 09:22:01] ERROR: Unable to write to log file. Permission denied.
+[2025-01-05 09:25:45] WARNING: High memory usage detected. Usage: 92%
+[2025-01-05 09:30:12] ERROR: Application crashed. Stack trace: NullPointerException at line 45
+[2025-01-05 09:35:22] INFO: Service restarted successfully. Service: apache2
+[2025-01-05 09:40:01] ERROR: File not found: /var/www/html/index.html
+[2025-01-05 09:45:33] WARNING: CPU temperature high. Temp: 85°C
+[2025-01-05 09:50:12] ERROR: Failed to send email. SMTP server not responding.
+[2025-01-05 09:55:45] INFO: User 'sarah' logged in successfully. IP: 192.168.1.101
+[2025-01-05 10:00:22] ERROR: Network timeout while connecting to API. URL: https://api.company.com
+[2025-01-05 10:05:12] WARNING: Unauthorized access attempt detected. IP: 45.123.45.67
+[2025-01-05 10:10:45] ERROR: Database query failed. Query: SELECT * FROM users WHERE id=1
+[2025-01-05 10:15:33] INFO: System update completed successfully.
+[2025-01-05 10:20:12] ERROR: Insufficient permissions to access /etc/ssh/sshd_config
+[2025-01-05 10:25:45] WARNING: Low battery on UPS. Remaining: 10%
+[2025-01-05 10:30:22] ERROR: Failed to mount NFS share. Server: nfs-server.company.com
+[2025-01-05 10:35:12] INFO: User 'james' logged out. IP: 192.168.1.102
+[2025-01-05 10:40:45] ERROR: SSL certificate expired for domain: www.company.com
+[2025-01-05 10:45:33] WARNING: High disk I/O detected. Device: /dev/sdb
+[2025-01-05 10:50:12] ERROR: Unable to start service. Service: mysql
+[2025-01-05 10:55:45] INFO: Backup job completed. Files: 123, Size: 1.2GB

@@ -1,0 +1,35 @@
+Jan  5 09:15:22 mailserver postfix/smtpd[12345]: connect from unknown[192.168.1.100]
+Jan  5 09:15:23 mailserver postfix/smtpd[12345]: 3F2A1C2B: client=unknown[192.168.1.100]
+Jan  5 09:15:24 mailserver postfix/cleanup[12346]: 3F2A1C2B: message-id=<20250105091523.3F2A1C2B@mailserver.local>
+Jan  5 09:15:25 mailserver postfix/qmgr[12347]: 3F2A1C2B: from=<john.doe@example.com>, size=1024, nrcpt=1 (queue active)
+Jan  5 09:15:26 mailserver postfix/smtp[12348]: 3F2A1C2B: to=<jane.smith@example.com>, relay=mail.example.com[203.0.113.2]:25, delay=3.2, delays=0.1/0.2/2.5/0.4, dsn=2.0.0, status=sent (250 OK: Message accepted for delivery)
+Jan  5 09:15:27 mailserver postfix/qmgr[12347]: 3F2A1C2B: removed
+
+Jan  5 09:20:12 mailserver postfix/smtpd[12349]: connect from unknown[192.168.1.101]
+Jan  5 09:20:13 mailserver postfix/smtpd[12349]: 4G3B2D4E: client=unknown[192.168.1.101]
+Jan  5 09:20:14 mailserver postfix/cleanup[12350]: 4G3B2D4E: message-id=<20250105092013.4G3B2D4E@mailserver.local>
+Jan  5 09:20:15 mailserver postfix/qmgr[12347]: 4G3B2D4E: from=<alice.wong@example.com>, size=2048, nrcpt=2 (queue active)
+Jan  5 09:20:16 mailserver postfix/smtp[12351]: 4G3B2D4E: to=<bob.jones@example.com>, relay=mail.example.com[203.0.113.2]:25, delay=3.5, delays=0.2/0.3/2.7/0.3, dsn=2.0.0, status=sent (250 OK: Message accepted for delivery)
+Jan  5 09:20:17 mailserver postfix/smtp[12351]: 4G3B2D4E: to=<charlie.brown@example.com>, relay=mail.example.com[203.0.113.2]:25, delay=3.8, delays=0.2/0.3/2.9/0.4, dsn=2.0.0, status=sent (250 OK: Message accepted for delivery)
+Jan  5 09:20:18 mailserver postfix/qmgr[12347]: 4G3B2D4E: removed
+
+Jan  5 09:25:45 mailserver postfix/smtpd[12352]: connect from unknown[192.168.1.102]
+Jan  5 09:25:46 mailserver postfix/smtpd[12352]: 5H4C3E5F: client=unknown[192.168.1.102]
+Jan  5 09:25:47 mailserver postfix/cleanup[12353]: 5H4C3E5F: message-id=<20250105092546.5H4C3E5F@mailserver.local>
+Jan  5 09:25:48 mailserver postfix/qmgr[12347]: 5H4C3E5F: from=<david.lee@example.com>, size=512, nrcpt=1 (queue active)
+Jan  5 09:25:49 mailserver postfix/smtp[12354]: 5H4C3E5F: to=<emma.wilson@example.com>, relay=mail.example.com[203.0.113.2]:25, delay=2.5, delays=0.1/0.2/1.8/0.4, dsn=2.0.0, status=sent (250 OK: Message accepted for delivery)
+Jan  5 09:25:50 mailserver postfix/qmgr[12347]: 5H4C3E5F: removed
+
+Jan  5 09:30:33 mailserver postfix/smtpd[12355]: connect from unknown[192.168.1.103]
+Jan  5 09:30:34 mailserver postfix/smtpd[12355]: 6I5D4F6G: client=unknown[192.168.1.103]
+Jan  5 09:30:35 mailserver postfix/cleanup[12356]: 6I5D4F6G: message-id=<20250105093034.6I5D4F6G@mailserver.local>
+Jan  5 09:30:36 mailserver postfix/qmgr[12347]: 6I5D4F6G: from=<sarah.johnson@example.com>, size=1536, nrcpt=1 (queue active)
+Jan  5 09:30:37 mailserver postfix/smtp[12357]: 6I5D4F6G: to=<michael.scott@example.com>, relay=mail.example.com[203.0.113.2]:25, delay=3.0, delays=0.1/0.2/2.2/0.5, dsn=2.0.0, status=sent (250 OK: Message accepted for delivery)
+Jan  5 09:30:38 mailserver postfix/qmgr[12347]: 6I5D4F6G: removed
+
+Jan  5 09:35:12 mailserver postfix/smtpd[12358]: connect from unknown[192.168.1.104]
+Jan  5 09:35:13 mailserver postfix/smtpd[12358]: 7J6E5G7H: client=unknown[192.168.1.104]
+Jan  5 09:35:14 mailserver postfix/cleanup[12359]: 7J6E5G7H: message-id=<20250105093513.7J6E5G7H@mailserver.local>
+Jan  5 09:35:15 mailserver postfix/qmgr[12347]: 7J6E5G7H: from=<oliver.brown@example.com>, size=768, nrcpt=1 (queue active)
+Jan  5 09:35:16 mailserver postfix/smtp[12360]: 7J6E5G7H: to=<lucy.adams@example.com>, relay=mail.example.com[203.0.113.2]:25, delay=2.8, delays=0.1/0.2/2.0/0.5, dsn=2.0.0, status=sent (250 OK: Message accepted for delivery)
+Jan  5 09:35:17 mailserver postfix/qmgr[12347]: 7J6E5G7H: removed

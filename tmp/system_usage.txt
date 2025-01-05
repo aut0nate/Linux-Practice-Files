@@ -1,0 +1,53 @@
+Timestamp: 2025-01-05 09:00:00
+CPU Usage: 45%
+Memory Usage: 65%
+Disk Usage: 70%
+Network Usage: 120Mbps
+
+Timestamp: 2025-01-05 09:15:00
+CPU Usage: 50%
+Memory Usage: 68%
+Disk Usage: 72%
+Network Usage: 110Mbps
+
+Timestamp: 2025-01-05 09:30:00
+CPU Usage: 55%
+Memory Usage: 70%
+Disk Usage: 75%
+Network Usage: 130Mbps
+
+Timestamp: 2025-01-05 09:45:00
+CPU Usage: 60%
+Memory Usage: 72%
+Disk Usage: 78%
+Network Usage: 140Mbps
+
+Timestamp: 2025-01-05 10:00:00
+CPU Usage: 65%
+Memory Usage: 75%
+Disk Usage: 80%
+Network Usage: 150Mbps
+
+Timestamp: 2025-01-05 10:15:00
+CPU Usage: 70%
+Memory Usage: 78%
+Disk Usage: 82%
+Network Usage: 160Mbps
+
+Timestamp: 2025-01-05 10:30:00
+CPU Usage: 75%
+Memory Usage: 80%
+Disk Usage: 85%
+Network Usage: 170Mbps
+
+Timestamp: 2025-01-05 10:45:00
+CPU Usage: 80%
+Memory Usage: 85%
+Disk Usage: 88%
+Network Usage: 180Mbps
+
+Timestamp: 2025-01-05 11:00:00
+CPU Usage: 85%
+Memory Usage: 88%
+Disk Usage: 90%
+Network Usage: 190Mbps
