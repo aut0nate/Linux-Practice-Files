@@ -1,0 +1,51 @@
+assetid,hardware,os,vendor,purchase_date,status
+1045,Desktop,Windows 11,Dell,2023-03-15,Active
+1012,Laptop,macOS Monterey,Apple,2022-11-08,Retired
+1078,Server,Ubuntu 22.04,HP,2024-01-22,Active
+1023,Desktop,Windows 10,Lenovo,2021-09-14,Maintenance
+1056,Laptop,Windows 11,HP,2023-07-03,Active
+1012,Desktop,CentOS 7,Dell,2020-05-19,Decommissioned
+1089,Workstation,Windows 11 Pro,Dell,2024-02-28,Active
+1034,Laptop,macOS Ventura,Apple,2023-01-12,Active
+1067,Server,Red Hat Enterprise Linux,IBM,2022-08-25,Active
+1023,Laptop,Windows 10,Asus,2021-12-07,Retired
+1091,Desktop,Ubuntu 20.04,HP,2023-05-16,Active
+1045,Server,Windows Server 2022,Microsoft,2024-03-10,Active
+1018,Laptop,macOS Big Sur,Apple,2022-04-30,Maintenance
+1072,Desktop,Windows 11,Acer,2023-09-21,Active
+1056,Workstation,Fedora 38,Lenovo,2024-01-05,Active
+1083,Laptop,Windows 10,Dell,2022-10-18,Decommissioned
+1029,Desktop,openSUSE Leap,HP,2021-07-11,Retired
+1094,Server,Debian 11,Dell,2023-12-04,Active
+1041,Laptop,Windows 11,MSI,2023-06-27,Active
+1067,Desktop,Windows 10,Asus,2022-02-14,Active
+1015,Workstation,macOS Monterey,Apple,2022-12-20,Maintenance
+1088,Laptop,Ubuntu 22.04,Lenovo,2024-04-08,Active
+1052,Desktop,Windows 11,HP,2023-08-13,Active
+1029,Server,CentOS Stream 9,Red Hat,2023-11-29,Active
+1076,Laptop,Windows 10,Acer,2022-06-02,Retired
+1041,Desktop,Arch Linux,Custom Build,2021-10-25,Decommissioned
+1063,Workstation,Windows 11 Pro,Dell,2024-05-17,Active
+1018,Laptop,macOS Ventura,Apple,2023-02-09,Active
+1085,Server,SUSE Linux Enterprise,SUSE,2022-09-06,Active
+1052,Desktop,Windows 10,Lenovo,2021-11-23,Maintenance
+1097,Laptop,Windows 11,HP,2024-06-14,Active
+1034,Workstation,Rocky Linux 9,Dell,2023-10-31,Active
+1071,Desktop,Windows 10,Asus,2022-03-28,Retired
+1085,Laptop,macOS Big Sur,Apple,2022-07-15,Active
+1026,Server,Ubuntu Server 20.04,HP,2021-08-09,Decommissioned
+1094,Desktop,Windows 11,Acer,2023-04-26,Active
+1063,Laptop,Windows 10,MSI,2022-01-17,Maintenance
+1079,Workstation,Fedora 37,Lenovo,2023-12-12,Active
+1026,Desktop,Windows 11,Dell,2024-07-01,Active
+1091,Server,AlmaLinux 9,IBM,2023-03-07,Active
+1079,Laptop,macOS Monterey,Apple,2022-05-24,Retired
+1015,Desktop,Windows 10,HP,2021-06-18,Active
+1088,Workstation,openSUSE Tumbleweed,SUSE,2024-08-03,Active
+1071,Laptop,Windows 11,Asus,2023-01-30,Decommissioned
+1097,Server,Debian 12,Dell,2024-09-11,Active
+1076,Desktop,Windows 10,Lenovo,2022-12-05,Maintenance
+1072,Laptop,macOS Ventura,Apple,2023-07-22,Active
+1083,Workstation,Ubuntu 22.04,HP,2024-02-16,Active
+1089,Desktop,Windows 11,Acer,2023-11-08,Retired
+1045,Laptop,Windows 10,Dell,2022-08-14,Active
