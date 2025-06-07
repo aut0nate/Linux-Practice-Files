@@ -1,0 +1,31 @@
+event,location,month,year,day
+System Update,London,January,2024,15
+User Login,Manchester,February,2024,3
+Backup Completed,Birmingham,March,2023,28
+Security Audit,Leeds,April,2023,12
+Service Restart,Glasgow,May,2024,7
+Disk Cleanup,Bristol,June,2023,19
+Network Outage,Edinburgh,July,2024,22
+Patch Applied,Liverpool,August,2023,5
+User Logout,Sheffield,September,2024,30
+Database Migration,Cardiff,October,2023,14
+Power Failure,Belfast,November,2024,2
+Hardware Upgrade,Nottingham,December,2023,25
+Firewall Update,Leicester,January,2024,8
+Printer Error,Southampton,February,2023,17
+Software Install,Portsmouth,March,2024,11
+Password Change,Newcastle,April,2023,6
+Email Sent,Oxford,May,2024,21
+VPN Connection,Cambridge,June,2023,13
+File Upload,Derby,July,2024,27
+Account Locked,Exeter,August,2023,9
+System Reboot,Reading,September,2024,18
+User Created,Milton Keynes,October,2023,4
+Log Cleared,Preston,November,2024,23
+Session Timeout,Stoke-on-Trent,December,2023,16
+Permission Changed,Kingston upon Hull,January,2024,29
+Group Added,Plymouth,February,2023,20
+Service Failure,Wolverhampton,March,2024,10
+Policy Updated,Southend-on-Sea,April,2023,1
+Device Connected,Swindon,May,2024,26
+Alert Triggered,Colchester,June,2023,15
