@@ -1,13 +1,50 @@
-Jan 5 09:00:01 server CRON[12345]: (root) CMD (/usr/bin/apt update)
-Jan 5 09:05:12 server kernel: [12345.678901] eth0: Link is Up - 1Gbps Full Duplex
-Jan 5 09:10:33 server systemd[1]: Starting Daily apt download activities...
-Jan 5 09:15:45 server systemd[1]: Finished Daily apt download activities.
-Jan 5 09:20:01 server CRON[12346]: (root) CMD (/usr/bin/apt upgrade -y)
-Jan 5 09:25:22 server kernel: [12346.789012] CPU0: Core temperature above threshold, cpu clock throttled
-Jan 5 09:30:45 server kernel: [12347.890123] CPU0: Core temperature/speed normal
-Jan 5 09:35:12 server systemd[1]: Starting Cleanup of Temporary Directories...
-Jan 5 09:40:33 server systemd[1]: Finished Cleanup of Temporary Directories.
-Jan 5 09:45:45 server kernel: [12348.901234] usb 1-1: USB device connected
-Jan 5 09:50:01 server kernel: [12349.012345] usb 1-1: USB device disconnected
-Jan 5 09:55:22 server systemd[1]: Starting Rotate log files...
-Jan 5 10:00:45 server systemd[1]: Finished Rotate log files.
+Jan  1 00:00:01 host1 systemd[1]: Started Session 1 of user user1.
+Jan  1 00:00:05 host1 kernel: [12345.678] EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+Jan  1 00:00:10 host1 rsyslogd: [origin software="rsyslogd" swVersion="8.2001.0" x-pid="1234" x-info="https://www.rsyslog.com"] start
+Jan  1 00:00:15 host1 CRON[5678]: (user2) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan  1 00:00:20 host1 systemd[1]: Stopping User Manager for UID 1001...
+Jan  1 00:00:25 host1 systemd[9012]: Stopped target Default.
+Jan  1 00:00:30 host1 systemd[9012]: Stopped User Manager for UID 1001.
+Jan  1 00:00:35 host1 systemd[1]: Stopped User Manager for UID 1001.
+Jan  1 00:00:40 host1 NetworkManager[3456]: <info>  [1609459240.1234] manager: NetworkManager state is now CONNECTED_GLOBAL
+Jan  1 00:00:45 host1 kernel: [23456.789] IPv6: ADDRCONF(netdev): eth0: link becomes ready
+Jan  1 00:00:50 host1 systemd[1]: Started Session 2 of user user2.
+Jan  1 00:00:55 host1 CRON[7890]: (user3) CMD (/usr/bin/command)
+Jan  1 00:01:00 host1 systemd[1]: Stopping LSB: Remove stale Samba NetBIOS nameserver files.
+Jan  1 00:01:05 host1 smbd[2345]: [2024/01/01 00:01:05.123456,  0] ../../source3/smbd/server.c:1772(main)
+Jan  1 00:01:10 host1 smbd[2345]:  smbd version 4.11.6-Ubuntu started.
+Jan  1 00:01:15 host1 systemd[1]: Stopped LSB: Remove stale Samba NetBIOS nameserver files.
+Jan  1 00:01:20 host1 systemd[1]: Starting LSB: Samba SMB/CIFS server...
+Jan  1 00:01:25 host1 smbd[6789]: [2024/01/01 00:01:25.789012,  0] ../../source3/smbd/server.c:1772(main)
+Jan  1 00:01:30 host1 smbd[6789]:  smbd version 4.11.6-Ubuntu started.
+Jan  1 00:01:35 host1 systemd[1]: Started LSB: Samba SMB/CIFS server.
+Jan  1 00:01:40 host1 systemd[1]: Started Daily apt activities.
+Jan  1 00:01:45 host1 systemd[1]: apt-daily.service: Succeeded.
+Jan  1 00:01:50 host1 systemd[1]: Finished Daily apt activities.
+Jan  1 00:01:55 host1 systemd[1]: Starting Daily apt activities.
+Jan  1 00:02:00 host1 systemd[1]: apt-daily.service: Succeeded.
+Jan  1 00:02:05 host1 systemd[1]: Finished Daily apt activities.
+Jan  1 00:02:10 host1 systemd[1]: Starting Daily apt activities.
+Jan  1 00:02:15 host1 systemd[1]: apt-daily.service: Succeeded.
+Jan  1 00:02:20 host1 systemd[1]: Finished Daily apt activities.
+Jan  1 00:02:25 host1 systemd[1]: Starting Daily apt activities.
+Jan  1 00:02:30 host1 systemd[1]: apt-daily.service: Succeeded.
+Jan  1 00:02:35 host1 systemd[1]: Finished Daily apt activities.
+Jan  1 00:02:40 host1 systemd[1]: Starting Daily apt activities.
+Jan  1 00:02:45 host1 systemd[1]: apt-daily.service: Succeeded.
+Jan  1 00:02:50 host1 systemd[1]: Finished Daily apt activities.
+Jan  1 00:02:55 host1 systemd[1]: Starting Daily apt activities.
+Jan  1 00:03:00 host1 systemd[1]: apt-daily.service: Succeeded.
+Jan  1 00:03:05 host1 systemd[1]: Finished Daily apt activities.
+Jan  1 00:03:10 host1 systemd[1]: Starting Daily apt activities.
+Jan  1 00:03:15 host1 systemd[1]: apt-daily.service: Succeeded.
+Jan  1 00:03:20 host1 systemd[1]: Finished Daily apt activities.
+Jan  1 00:03:25 host1 systemd[1]: Starting Daily apt activities.
+Jan  1 00:03:30 host1 systemd[1]: apt-daily.service: Succeeded.
+Jan  1 00:03:35 host1 systemd[1]: Finished Daily apt activities.
+Jan  1 00:03:40 host1 systemd[1]: Starting Daily apt activities.
+Jan  1 00:03:45 host1 systemd[1]: apt-daily.service: Succeeded.
+Jan  1 00:03:50 host1 systemd[1]: Finished Daily apt activities.
+Jan  1 00:03:55 host1 systemd[1]: Starting Daily apt activities.
+Jan  1 00:04:00 host1 systemd[1]: apt-daily.service: Succeeded.
+Jan  1 00:04:05 host1 systemd[1]: Finished Daily apt activities.

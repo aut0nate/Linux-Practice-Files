@@ -1,25 +1,49 @@
-Jan 5 09:23:45 server sshd[12345]: Accepted publickey for admin from 192.168.1.100 port 52413
-Jan 5 09:24:01 server sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/apt update
-Jan 5 09:45:22 server sshd[12346]: Failed password for invalid user test from 45.123.45.67 port 53022
-Jan 5 10:15:33 server sudo: admin : TTY=pts/0 ; PWD=/var/www ; USER=root ; COMMAND=/bin/systemctl restart apache2
-Jan 5 11:02:14 server sshd[12347]: Failed password for root from 89.123.45.78 port 39654
-Jan 5 11:02:15 server sshd[12347]: Failed password for root from 89.123.45.78 port 39655
-Jan 5 11:02:16 server sshd[12347]: Failed password for root from 89.123.45.78 port 39656
-Jan 5 11:02:17 server sshd[12348]: Invalid user admin1 from 89.123.45.78
-Jan 5 12:30:45 server sudo: james : authentication failure ; TTY=pts/1 ; PWD=/home/james ; USER=root
-Jan 5 13:15:22 server groupadd[12349]: new group: name=developer, GID=1001
-Jan 5 13:15:45 server useradd[12350]: new user: name=sarah, UID=1001, GID=1001
-Jan 5 14:20:33 server sshd[12351]: Accepted password for sarah from 192.168.1.101 port 52414
-Jan 5 15:45:12 server sudo: sarah : TTY=pts/2 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/nano index.html
-Jan 5 16:30:45 server passwd[12352]: password changed for sarah
-Jan 5 17:00:01 server CRON[12353]: pam_unix(cron:session): session opened for user root
-Jan 5 17:00:02 server CRON[12353]: pam_unix(cron:session): session closed for user root
-Jan 5 18:23:45 server sshd[12354]: Disconnected from user admin 192.168.1.100 port 52413
-Jan 5 19:15:22 server sudo: admin : TTY=pts/0 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/bin/vim apache2.conf
-Jan 5 20:30:45 server sshd[12355]: Failed password for invalid user administrator from 91.234.56.78 port 45678
-Jan 5 21:45:12 server sudo: sarah : TTY=pts/2 ; PWD=/home/sarah ; USER=root ; COMMAND=/usr/bin/apt upgrade
-Jan 5 22:15:33 server sshd[12356]: Accepted publickey for admin from 192.168.1.102 port 52415
-Jan 5 23:00:01 server CRON[12357]: pam_unix(cron:session): session opened for user root
-Jan 5 23:30:45 server sudo: admin : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/bin/tail -f auth.log
-Jan 5 23:45:22 server sshd[12358]: Disconnected from user sarah 192.168.1.101 port 52414
-Jan 5 23:59:59 server sudo: admin : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/sbin/shutdown -r now
+Jan  1 00:00:01 host1 sshd[1234]: Accepted password for user1 from 192.168.1.100 port 12345 ssh2
+Jan  1 00:00:05 host1 sudo[5678]: user1 : TTY=pts/0 ; PWD=/home/user1 ; USER=root ; COMMAND=/bin/ls
+Jan  1 00:00:10 host1 su[9012]: Successful su for user2 to root
+Jan  1 00:00:15 host1 sshd[3456]: Failed password for invalid user test from 192.168.1.101 port 54321 ssh2
+Jan  1 00:00:20 host1 sshd[7890]: Accepted publickey for user2 from 192.168.1.102 port 23456 ssh2
+Jan  1 00:00:25 host1 sudo[2345]: user2 : TTY=pts/1 ; PWD=/home/user2 ; USER=root ; COMMAND=/sbin/reboot
+Jan  1 00:00:30 host1 su[6789]: Successful su for user3 to user1
+Jan  1 00:00:35 host1 sshd[0123]: Invalid user test2 from 192.168.1.103 port 67890 ssh2
+Jan  1 00:00:40 host1 sshd[4567]: Accepted password for user3 from 192.168.1.104 port 78901 ssh2
+Jan  1 00:00:45 host1 sudo[8901]: user3 : TTY=pts/2 ; PWD=/home/user3 ; USER=root ; COMMAND=/bin/nano /etc/hosts
+Jan  1 00:00:50 host1 su[3456]: Successful su for user1 to user2
+Jan  1 00:00:55 host1 sshd[7890]: Failed password for user4 from 192.168.1.105 port 89012 ssh2
+Jan  1 00:01:00 host1 sshd[2345]: Accepted publickey for user4 from 192.168.1.106 port 90123 ssh2
+Jan  1 00:01:05 host1 sudo[6789]: user4 : TTY=pts/3 ; PWD=/home/user4 ; USER=root ; COMMAND=/usr/sbin/shutdown -h now
+Jan  1 00:01:10 host1 su[0123]: Successful su for user2 to user3
+Jan  1 00:01:15 host1 sshd[4567]: Invalid user test3 from 192.168.1.107 port 12345 ssh2
+Jan  1 00:01:20 host1 sshd[8901]: Accepted password for user5 from 192.168.1.108 port 23456 ssh2
+Jan  1 00:01:25 host1 sudo[3456]: user5 : TTY=pts/4 ; PWD=/home/user5 ; USER=root ; COMMAND=/bin/apt update
+Jan  1 00:01:30 host1 su[7890]: Successful su for user3 to root
+Jan  1 00:01:35 host1 sshd[2345]: Failed password for invalid user test4 from 192.168.1.109 port 34567 ssh2
+Jan  1 00:01:40 host1 sshd[6789]: Accepted publickey for user6 from 192.168.1.110 port 45678 ssh2
+Jan  1 00:01:45 host1 sudo[0123]: user6 : TTY=pts/5 ; PWD=/home/user6 ; USER=root ; COMMAND=/usr/bin/vim /etc/network/interfaces
+Jan  1 00:01:50 host1 su[4567]: Successful su for user1 to user2
+Jan  1 00:01:55 host1 sshd[8901]: Invalid user test5 from 192.168.1.111 port 56789 ssh2
+Jan  1 00:02:00 host1 sshd[3456]: Accepted password for user7 from 192.168.1.112 port 67890 ssh2
+Jan  1 00:02:05 host1 sudo[7890]: user7 : TTY=pts/6 ; PWD=/home/user7 ; USER=root ; COMMAND=/sbin/shutdown -r now
+Jan  1 00:02:10 host1 su[2345]: Successful su for user2 to user3
+Jan  1 00:02:15 host1 sshd[6789]: Failed password for user8 from 192.168.1.113 port 78901 ssh2
+Jan  1 00:02:20 host1 sshd[0123]: Accepted publickey for user8 from 192.168.1.114 port 89012 ssh2
+Jan  1 00:02:25 host1 sudo[4567]: user8 : TTY=pts/7 ; PWD=/home/user8 ; USER=root ; COMMAND=/bin/systemctl restart apache2
+Jan  1 00:02:30 host1 su[8901]: Successful su for user3 to root
+Jan  1 00:02:35 host1 sshd[3456]: Invalid user test6 from 192.168.1.115 port 90123 ssh2
+Jan  1 00:02:40 host1 sshd[7890]: Accepted password for user9 from 192.168.1.116 port 12345 ssh2
+Jan  1 00:02:45 host1 sudo[2345]: user9 : TTY=pts/8 ; PWD=/home/user9 ; USER=root ; COMMAND=/usr/bin/apt upgrade
+Jan  1 00:02:50 host1 su[6789]: Successful su for user1 to user2
+Jan  1 00:02:55 host1 sshd[0123]: Failed password for user10 from 192.168.1.117 port 23456 ssh2
+Jan  1 00:03:00 host1 sshd[4567]: Accepted publickey for user10 from 192.168.1.118 port 34567 ssh2
+Jan  1 00:03:05 host1 sudo[8901]: user10 : TTY=pts/9 ; PWD=/home/user10 ; USER=root ; COMMAND=/bin/journalctl -xe
+Jan  1 00:03:10 host1 su[3456]: Successful su for user2 to user3
+Jan  1 00:03:15 host1 sshd[7890]: Invalid user test7 from 192.168.1.119 port 45678 ssh2
+Jan  1 00:03:20 host1 sshd[2345]: Accepted password for user11 from 192.168.1.120 port 56789 ssh2
+Jan  1 00:03:25 host1 sudo[6789]: user11 : TTY=pts/10 ; PWD=/home/user11 ; USER=root ; COMMAND=/usr/sbin/useradd newuser
+Jan  1 00:03:30 host1 su[0123]: Successful su for user3 to root
+Jan  1 00:03:35 host1 sshd[4567]: Failed password for invalid user test8 from 192.168.1.121 port 67890 ssh2
+Jan  1 00:03:40 host1 sshd[8901]: Accepted publickey for user12 from 192.168.1.122 port 78901 ssh2
+Jan  1 00:03:45 host1 sudo[3456]: user12 : TTY=pts/11 ; PWD=/home/user12 ; USER=root ; COMMAND=/bin/systemctl stop nginx
+Jan  1 00:03:50 host1 su[7890]: Successful su for user1 to user2
+Jan  1 00:03:55 host1 sshd[2345]: Invalid user test9 from 192.168.1.123 port 89012 ssh2
+Jan  1 00:04:00 host1 sshd[6789]: Accepted password for user13 from 192.168.1.124 port 90123 ssh2

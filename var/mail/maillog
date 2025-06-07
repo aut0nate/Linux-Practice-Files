@@ -1,35 +1,49 @@
-Jan  5 09:15:22 mailserver postfix/smtpd[12345]: connect from unknown[192.168.1.100]
-Jan  5 09:15:23 mailserver postfix/smtpd[12345]: 3F2A1C2B: client=unknown[192.168.1.100]
-Jan  5 09:15:24 mailserver postfix/cleanup[12346]: 3F2A1C2B: message-id=<20250105091523.3F2A1C2B@mailserver.local>
-Jan  5 09:15:25 mailserver postfix/qmgr[12347]: 3F2A1C2B: from=<john.doe@example.com>, size=1024, nrcpt=1 (queue active)
-Jan  5 09:15:26 mailserver postfix/smtp[12348]: 3F2A1C2B: to=<jane.smith@example.com>, relay=mail.example.com[203.0.113.2]:25, delay=3.2, delays=0.1/0.2/2.5/0.4, dsn=2.0.0, status=sent (250 OK: Message accepted for delivery)
-Jan  5 09:15:27 mailserver postfix/qmgr[12347]: 3F2A1C2B: removed
-
-Jan  5 09:20:12 mailserver postfix/smtpd[12349]: connect from unknown[192.168.1.101]
-Jan  5 09:20:13 mailserver postfix/smtpd[12349]: 4G3B2D4E: client=unknown[192.168.1.101]
-Jan  5 09:20:14 mailserver postfix/cleanup[12350]: 4G3B2D4E: message-id=<20250105092013.4G3B2D4E@mailserver.local>
-Jan  5 09:20:15 mailserver postfix/qmgr[12347]: 4G3B2D4E: from=<alice.wong@example.com>, size=2048, nrcpt=2 (queue active)
-Jan  5 09:20:16 mailserver postfix/smtp[12351]: 4G3B2D4E: to=<bob.jones@example.com>, relay=mail.example.com[203.0.113.2]:25, delay=3.5, delays=0.2/0.3/2.7/0.3, dsn=2.0.0, status=sent (250 OK: Message accepted for delivery)
-Jan  5 09:20:17 mailserver postfix/smtp[12351]: 4G3B2D4E: to=<charlie.brown@example.com>, relay=mail.example.com[203.0.113.2]:25, delay=3.8, delays=0.2/0.3/2.9/0.4, dsn=2.0.0, status=sent (250 OK: Message accepted for delivery)
-Jan  5 09:20:18 mailserver postfix/qmgr[12347]: 4G3B2D4E: removed
-
-Jan  5 09:25:45 mailserver postfix/smtpd[12352]: connect from unknown[192.168.1.102]
-Jan  5 09:25:46 mailserver postfix/smtpd[12352]: 5H4C3E5F: client=unknown[192.168.1.102]
-Jan  5 09:25:47 mailserver postfix/cleanup[12353]: 5H4C3E5F: message-id=<20250105092546.5H4C3E5F@mailserver.local>
-Jan  5 09:25:48 mailserver postfix/qmgr[12347]: 5H4C3E5F: from=<david.lee@example.com>, size=512, nrcpt=1 (queue active)
-Jan  5 09:25:49 mailserver postfix/smtp[12354]: 5H4C3E5F: to=<emma.wilson@example.com>, relay=mail.example.com[203.0.113.2]:25, delay=2.5, delays=0.1/0.2/1.8/0.4, dsn=2.0.0, status=sent (250 OK: Message accepted for delivery)
-Jan  5 09:25:50 mailserver postfix/qmgr[12347]: 5H4C3E5F: removed
-
-Jan  5 09:30:33 mailserver postfix/smtpd[12355]: connect from unknown[192.168.1.103]
-Jan  5 09:30:34 mailserver postfix/smtpd[12355]: 6I5D4F6G: client=unknown[192.168.1.103]
-Jan  5 09:30:35 mailserver postfix/cleanup[12356]: 6I5D4F6G: message-id=<20250105093034.6I5D4F6G@mailserver.local>
-Jan  5 09:30:36 mailserver postfix/qmgr[12347]: 6I5D4F6G: from=<sarah.johnson@example.com>, size=1536, nrcpt=1 (queue active)
-Jan  5 09:30:37 mailserver postfix/smtp[12357]: 6I5D4F6G: to=<michael.scott@example.com>, relay=mail.example.com[203.0.113.2]:25, delay=3.0, delays=0.1/0.2/2.2/0.5, dsn=2.0.0, status=sent (250 OK: Message accepted for delivery)
-Jan  5 09:30:38 mailserver postfix/qmgr[12347]: 6I5D4F6G: removed
-
-Jan  5 09:35:12 mailserver postfix/smtpd[12358]: connect from unknown[192.168.1.104]
-Jan  5 09:35:13 mailserver postfix/smtpd[12358]: 7J6E5G7H: client=unknown[192.168.1.104]
-Jan  5 09:35:14 mailserver postfix/cleanup[12359]: 7J6E5G7H: message-id=<20250105093513.7J6E5G7H@mailserver.local>
-Jan  5 09:35:15 mailserver postfix/qmgr[12347]: 7J6E5G7H: from=<oliver.brown@example.com>, size=768, nrcpt=1 (queue active)
-Jan  5 09:35:16 mailserver postfix/smtp[12360]: 7J6E5G7H: to=<lucy.adams@example.com>, relay=mail.example.com[203.0.113.2]:25, delay=2.8, delays=0.1/0.2/2.0/0.5, dsn=2.0.0, status=sent (250 OK: Message accepted for delivery)
-Jan  5 09:35:17 mailserver postfix/qmgr[12347]: 7J6E5G7H: removed
+Jan  1 00:00:01 host1 postfix/smtpd[1234]: connect from unknown[192.168.1.100]
+Jan  1 00:00:05 host1 postfix/smtpd[1234]: disconnect from unknown[192.168.1.100] ehlo=1 quit=1 commands=2
+Jan  1 00:00:10 host1 postfix/qmgr[5678]: A1B2C3D4E5: from=<user1@example.com>, size=1234, nrcpt=1 (queue active)
+Jan  1 00:00:15 host1 postfix/smtp[9012]: A1B2C3D4E5: to=<user2@example.com>, relay=mail.example.com[192.168.1.200]:25, delay=0.1, delays=0.01/0/0.05/0.04, dsn=2.0.0, status=sent (250 Ok: queued as F5E4D3C2B1)
+Jan  1 00:00:20 host1 postfix/qmgr[5678]: A1B2C3D4E5: removed
+Jan  1 00:00:25 host1 postfix/smtpd[3456]: connect from unknown[192.168.1.101]
+Jan  1 00:00:30 host1 postfix/smtpd[3456]: lost connection after EHLO from unknown[192.168.1.101]
+Jan  1 00:00:35 host1 postfix/smtpd[3456]: disconnect from unknown[192.168.1.101] ehlo=1 quit=1 commands=2
+Jan  1 00:00:40 host1 postfix/qmgr[5678]: 1A2B3C4D5E: from=<user3@example.com>, size=4567, nrcpt=1 (queue active)
+Jan  1 00:00:45 host1 postfix/smtp[7890]: 1A2B3C4D5E: to=<user4@example.com>, relay=mail.example.com[192.168.1.200]:25, delay=0.2, delays=0.02/0/0.1/0.08, dsn=2.0.0, status=sent (250 Ok: queued as 2B3C4D5E6F)
+Jan  1 00:00:50 host1 postfix/qmgr[5678]: 1A2B3C4D5E: removed
+Jan  1 00:00:55 host1 postfix/smtp[9012]: F5E4D3C2B1: to=<user2@example.com>, relay=mail.example.com[192.168.1.200]:25, delay=0.1, delays=0.01/0/0.05/0.04, dsn=2.0.0, status=sent (250 Ok: queued as 3C4D5E6F7G)
+Jan  1 00:01:00 host1 postfix/qmgr[5678]: F5E4D3C2B1: removed
+Jan  1 00:01:05 host1 postfix/smtpd[2345]: connect from unknown[192.168.1.102]
+Jan  1 00:01:10 host1 postfix/smtpd[2345]: disconnect from unknown[192.168.1.102] ehlo=1 quit=1 commands=2
+Jan  1 00:01:15 host1 postfix/qmgr[5678]: 2B3C4D5E6F: from=<user4@example.com>, size=7890, nrcpt=1 (queue active)
+Jan  1 00:01:20 host1 postfix/smtp[6789]: 2B3C4D5E6F: to=<user5@example.com>, relay=mail.example.com[192.168.1.200]:25, delay=0.3, delays=0.03/0/0.15/0.12, dsn=2.0.0, status=sent (250 Ok: queued as 4D5E6F7G8H)
+Jan  1 00:01:25 host1 postfix/qmgr[5678]: 2B3C4D5E6F: removed
+Jan  1 00:01:30 host1 postfix/smtp[9012]: 3C4D5E6F7G: to=<user2@example.com>, relay=mail.example.com[192.168.1.200]:25, delay=0.1, delays=0.01/0/0.05/0.04, dsn=2.0.0, status=sent (250 Ok: queued as 5E6F7G8H9I)
+Jan  1 00:01:35 host1 postfix/qmgr[5678]: 3C4D5E6F7G: removed
+Jan  1 00:01:40 host1 postfix/smtpd[0123]: connect from unknown[192.168.1.103]
+Jan  1 00:01:45 host1 postfix/smtpd[0123]: lost connection after EHLO from unknown[192.168.1.103]
+Jan  1 00:01:50 host1 postfix/smtpd[0123]: disconnect from unknown[192.168.1.103] ehlo=1 quit=1 commands=2
+Jan  1 00:01:55 host1 postfix/qmgr[5678]: 4D5E6F7G8H: from=<user5@example.com>, size=1011, nrcpt=1 (queue active)
+Jan  1 00:02:00 host1 postfix/smtp[4567]: 4D5E6F7G8H: to=<user6@example.com>, relay=mail.example.com[192.168.1.200]:25, delay=0.4, delays=0.04/0/0.2/0.16, dsn=2.0.0, status=sent (250 Ok: queued as 6F7G8H9I0J)
+Jan  1 00:02:05 host1 postfix/qmgr[5678]: 4D5E6F7G8H: removed
+Jan  1 00:02:10 host1 postfix/smtp[9012]: 5E6F7G8H9I: to=<user2@example.com>, relay=mail.example.com[192.168.1.200]:25, delay=0.1, delays=0.01/0/0.05/0.04, dsn=2.0.0, status=sent (250 Ok: queued as 7G8H9I0J1K)
+Jan  1 00:02:15 host1 postfix/qmgr[5678]: 5E6F7G8H9I: removed
+Jan  1 00:02:20 host1 postfix/smtpd[8901]: connect from unknown[192.168.1.104]
+Jan  1 00:02:25 host1 postfix/smtpd[8901]: lost connection after EHLO from unknown[192.168.1.104]
+Jan  1 00:02:30 host1 postfix/smtpd[8901]: disconnect from unknown[192.168.1.104] ehlo=1 quit=1 commands=2
+Jan  1 00:02:35 host1 postfix/qmgr[5678]: 6F7G8H9I0J: from=<user6@example.com>, size=1213, nrcpt=1 (queue active)
+Jan  1 00:02:40 host1 postfix/smtp[3456]: 6F7G8H9I0J: to=<user7@example.com>, relay=mail.example.com[192.168.1.200]:25, delay=0.5, delays=0.05/0/0.25/0.2, dsn=2.0.0, status=sent (250 Ok: queued as 8H9I0J1K2L)
+Jan  1 00:02:45 host1 postfix/qmgr[5678]: 6F7G8H9I0J: removed
+Jan  1 00:02:50 host1 postfix/smtp[9012]: 7G8H9I0J1K: to=<user2@example.com>, relay=mail.example.com[192.168.1.200]:25, delay=0.1, delays=0.01/0/0.05/0.04, dsn=2.0.0, status=sent (250 Ok: queued as 9I0J1K2L3M)
+Jan  1 00:02:55 host1 postfix/qmgr[5678]: 7G8H9I0J1K: removed
+Jan  1 00:03:00 host1 postfix/smtpd[7890]: connect from unknown[192.168.1.105]
+Jan  1 00:03:05 host1 postfix/smtpd[7890]: lost connection after EHLO from unknown[192.168.1.105]
+Jan  1 00:03:10 host1 postfix/smtpd[7890]: disconnect from unknown[192.168.1.105] ehlo=1 quit=1 commands=2
+Jan  1 00:03:15 host1 postfix/qmgr[5678]: 8H9I0J1K2L: from=<user7@example.com>, size=1415, nrcpt=1 (queue active)
+Jan  1 00:03:20 host1 postfix/smtp[2345]: 8H9I0J1K2L: to=<user8@example.com>, relay=mail.example.com[192.168.1.200]:25, delay=0.6, delays=0.06/0/0.3/0.24, dsn=2.0.0, status=sent (250 Ok: queued as A0B1C2D3E4)
+Jan  1 00:03:25 host1 postfix/qmgr[5678]: 8H9I0J1K2L: removed
+Jan  1 00:03:30 host1 postfix/smtp[9012]: 9I0J1K2L3M: to=<user2@example.com>, relay=mail.example.com[192.168.1.200]:25, delay=0.1, delays=0.01/0/0.05/0.04, dsn=2.0.0, status=sent (250 Ok: queued as B1C2D3E4F5)
+Jan  1 00:03:35 host1 postfix/qmgr[5678]: 9I0J1K2L3M: removed
+Jan  1 00:03:40 host1 postfix/smtpd[6789]: connect from unknown[192.168.1.106]
+Jan  1 00:03:45 host1 postfix/smtpd[6789]: lost connection after EHLO from unknown[192.168.1.106]
+Jan  1 00:03:50 host1 postfix/smtpd[6789]: disconnect from unknown[192.168.1.106] ehlo=1 quit=1 commands=2
+Jan  1 00:03:55 host1 postfix/qmgr[5678]: A0B1C2D3E4: from=<user8@example.com>, size=1617, nrcpt=1 (queue active)
+Jan  1 00:04:00 host1 postfix/smtp[0123]: A0B1C2D3E4: to=<user9@example.com>, relay=mail.example.com[192.168.1.200]:25, delay=0.7, delays=0.07/0/0.35/0.28, dsn=2.0.0, status=sent (250 Ok: queued as C2D3E4F5G6)

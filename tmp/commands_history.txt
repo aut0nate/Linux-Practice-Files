@@ -1,0 +1,54 @@
+ls -l
+cd /home/user/documents
+grep "keyword" file.txt
+sudo apt update
+ls -al
+cd ..
+history | grep "apt"
+./script.sh
+mkdir new_directory
+rm file.txt
+cp source.txt destination.txt
+mv old_file.txt new_file.txt
+cat file.txt
+less file.txt
+head -n 10 file.txt
+tail -f logfile.log
+find . -name "file.txt"
+echo "Hello, world!"
+date
+pwd
+ifconfig
+df -h
+du -sh *
+top
+ps aux
+kill 1234
+chmod +x script.sh
+chown user:group file.txt
+ssh user@example.com
+scp file.txt user@example.com:/home/user/
+tar -czvf archive.tar.gz directory
+unzip file.zip
+ping example.com
+traceroute example.com
+netstat -tulnp
+nslookup example.com
+whois example.com
+wget http://example.com/file.txt
+curl http://example.com/file.txt
+sed 's/old/new/g' file.txt
+awk '{print $1}' file.txt
+sort file.txt
+uniq file.txt
+diff file1.txt file2.txt
+tee output.txt
+ln -s target link
+sudo reboot
+exit
+ls -l
+cd /home/user/documents
+grep "keyword" file.txt
+sudo apt update
+ls -al
+cd ..
