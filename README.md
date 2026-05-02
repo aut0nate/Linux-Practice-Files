@@ -52,3 +52,7 @@ You can use these files to:
 ## Note
 
 These are sample files created for educational purposes. While they mirror real system files, they are simplified for learning and practice. The data within these files is synthetic and does not contain sensitive information.
+
+## License
+
+This project is licensed under the MIT License. See [LICENSE](./LICENSE) for details.
